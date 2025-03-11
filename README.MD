@@ -66,7 +66,7 @@ Vous allez concevoir une application MERN permettant aux utilisateurs de gérer 
 1.  Cloner le répertoire :
 
     ```sh
-    git clone https://github.com/IbanL/projetCCP2.git
+    git clone https://github.com/IbanL/CCP2.git
     ```
 
 <br/>
