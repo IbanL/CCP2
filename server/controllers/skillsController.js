@@ -80,10 +80,6 @@ exports.updateSkill = async (req, res, next) => {
         throw new Error("wrong skill id")
     }
 
-    
-// ====================================================================
-// la
-// ====================================================================
 const myTitle = title;
 const myCategorie = categorie;
 const myNiveau = niveau;        
@@ -115,7 +111,7 @@ if(req.file){
    
     
  
-    res.status(200).json({message : "utilisateur mis a jour"})
+    res.status(200).json({message : "skill mis a jour"})
  
     } catch (error) {
         next(error);
